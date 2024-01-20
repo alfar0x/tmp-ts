@@ -2,7 +2,7 @@
   "name": "",
   "version": "1.0.0",
   "description": "",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "scripts": {
     "start": "ts-node ./src/scripts/start.ts",
     "initialize": "ts-node ./src/scripts/initialize.ts",
@@ -11,7 +11,6 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@types/big.js": "^6.1.6",
-    "@types/ini": "^4.1.0",
     "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
@@ -25,13 +24,9 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@alfar/helpers": "^0.0.11",
     "big.js": "^6.2.1",
-    "dotenv": "^16.0.3",
-    "https-proxy-agent": "^7.0.2",
-    "ini": "^4.1.1",
     "lodash": "^4.17.21",
-    "socks-proxy-agent": "^8.0.2",
-    "winston": "^3.11.0",
     "zod": "^3.21.4"
   }
 }
