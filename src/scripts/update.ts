@@ -1,3 +1,3 @@
-const update = () => {}
+const update = () => {};
 
-update()
+update();

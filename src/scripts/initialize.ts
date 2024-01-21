@@ -1,3 +1,3 @@
-const initialize = () => {}
+const initialize = () => {};
 
-initialize()
+initialize();
