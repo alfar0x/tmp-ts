@@ -1,5 +1,3 @@
-const start = async () => {
-
-}
+const start = async () => {}
 
 start()
