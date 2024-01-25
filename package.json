@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node ./src/scripts/start.ts",
     "initialize": "ts-node ./src/scripts/initialize.ts",
-    "update": "git reset --hard HEAD && git pull && npm install && ts-node src/scripts/update.script.ts"
+    "update": "git reset --hard HEAD && git pull && npm install && ts-node src/scripts/update.ts"
   },
   "devDependencies": {
     "@types/big.js": "^6.1.6",
