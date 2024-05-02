@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node ./src/scripts/start.ts",
-    "initialize": "ts-node ./src/scripts/initialize.ts",
-    "update": "git reset --hard HEAD && git pull && npm install && ts-node src/scripts/update.ts"
+    "setup": "ts-node ./src/scripts/setup.ts"
   },
   "devDependencies": {
     "@types/big.js": "^6.1.6",
@@ -23,9 +22,8 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@alfar/helpers": "^0.0.11",
+    "@alfar/helpers": "^0.0.43",
     "big.js": "^6.2.1",
-    "lodash": "^4.17.21",
     "zod": "^3.21.4"
   }
 }
